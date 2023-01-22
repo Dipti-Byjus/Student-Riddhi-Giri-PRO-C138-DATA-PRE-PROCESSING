@@ -10,12 +10,12 @@ from nltk.stem import PorterStemmer
 stemmer = PorterStemmer()
 
 # importing json lib
-import json
+
 
 # to store data into files
-import pickle
 
-import numpy as np
+
+
 
 words=[] #list of unique roots words in the data
 classes = [] #list of unique tags in the data
